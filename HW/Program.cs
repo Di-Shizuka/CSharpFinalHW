@@ -3,7 +3,7 @@
 // // N = 5 -> "5, 4, 3, 2, 1"
 // // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-// Console.WriteLine("Введите натуральное число");
+// Console.WriteLine("Задайте значение N:");
 // int N = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"Натуральные числа от {N} до 1: {Numbers(N)}");
 
@@ -20,9 +20,9 @@
 // // M = 4; N = 8. -> 30
 
 
-// Console.WriteLine("Введите натуральное число M");
+// Console.WriteLine("Задайте значение M");
 // int M = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите натуральное число N");
+// Console.WriteLine("Задайте значение N");
 // int N = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"Сумма натуральных чисел от {M} до {N} равна {Summa(M, N)}");
 
@@ -40,9 +40,9 @@
 // // m = 2, n = 3 -> A(m,n) = 9
 // // m = 3, n = 2 -> A(m,n) = 29
 
-// Console.WriteLine("Введите число m");
+// Console.WriteLine("Задайте неотрицательное число m");
 // int m = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите число n");
+// Console.WriteLine("Задайте неотрицательное число n");
 // int n = Convert.ToInt32(Console.ReadLine());
 
 // Console.WriteLine($"Функция Аккермана равна {Ackermann(m, n)}");
